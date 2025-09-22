@@ -15,7 +15,6 @@ body
 
 nav
 {
-    background-color: rgba(255, 0, 0, 0.5);
     line-height: 250%;
     display: block;
 }
@@ -23,10 +22,10 @@ nav
 nav li
 {
     display: inline;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 125px;
+    padding-left: 125px;
     list-style-type: none;
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 mark {
@@ -51,5 +50,13 @@ h6
 
 p
 {
-    font-size: 1.25em
+    font-size: 1.25em;
+    color: white;
+    background-color: rgba(207,55,68);
+}
+
+li
+{
+    color: white;
+    background-color: rgba(207,55,68);
 }
