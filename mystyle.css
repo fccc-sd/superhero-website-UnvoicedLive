@@ -6,17 +6,23 @@ h1
     font-style: italic;
     line-height: 60%;
     padding-top: 10px;
+    color: white;
 }
 
 body
 {
     background-image: url('hornet.png');
+    background-repeat: no-repeat;
+    background-color: rgba(207,55,68);
+    background-attachment: fixed;
+    background-position: right bottom;
 }
 
 nav
 {
     line-height: 250%;
     display: block;
+    background-color: rgb(143, 12, 23);
 }
 
 nav li
@@ -28,19 +34,14 @@ nav li
     font-size: 1.5em;
 }
 
-mark {
-  background-color: rgba(207,55,68);
-  color: rgb(255, 255, 255);
-}
-
 nav a:link
 {
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
 
 nav a:visited
 {
-    color: rgb(255, 252, 252)
+    color: rgb(255, 252, 252);
 }
 
 h6
@@ -52,11 +53,9 @@ p
 {
     font-size: 1.25em;
     color: white;
-    background-color: rgba(207,55,68);
 }
 
 li
 {
     color: white;
-    background-color: rgba(207,55,68);
 }
