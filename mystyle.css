@@ -60,13 +60,25 @@ li
     color: white;
 }
 
-#hornetbanner
+#right
 {
     float: right;
     padding-top: 18px;
 }
 
-#hornettrans
+h2
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img
 {
     float: left;
+}
+
+iframe
+{
+    margin-bottom: -40px;
 }
