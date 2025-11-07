@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(143, 12, 23);
+}
+
+nav li
+{
+    display: inline;
+    margin-right: 8%;
+    margin-left: 8%;
+    list-style-type: none;
+    font-size: 150%;
+}
+
+nav a:link
+{
+    color: rgb(255, 255, 255);
+}
+
+nav a:visited
+{
+    color: rgb(255, 252, 252);
+}
+
+#container
+{
+    width: 63.123%; /* 960px */
+    margin: 0 auto;
+    background-color: rgba(207,55,68);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header
+{
+    text-align: center;
+    background-color: rgb(143, 12, 23);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav
+{
+    width: 98.9583333%;
+    line-height: 250%;
+    display: block;
+    background-color: rgb(143, 12, 23);
+}
+
+aside
+{
+    float: left;
+    background-color: rgb(143, 12, 23);
+    width: 32.29%; /* 310px */
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Act1
+{
+    width: 630px;
+    background-color: rgb(143, 12, 23);
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Act2
+{
+    background-color: rgb(143, 12, 23);
+    float: right;
+    width: 630px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    clear: right;
+}
+
+#Act3
+{
+    width: 630px;
+    background-color: rgb(143, 12, 23);
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    clear: right;
+}
+
+footer
+{
+    width: 98.8958333%;
+    background-color: rgb(143, 12, 23);
+    margin-left: 5px;
+    margin-right: 5px;
+    clear: both;
+
+}
+img
+{
+    width: 96.7741935%; /* 300px */
+    margin-left: 5px;
+    margin-right: 5px;
+}
