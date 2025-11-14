@@ -15,22 +15,24 @@ nav li
     margin-right: 8%;
     margin-left: 8%;
     list-style-type: none;
-    font-size: 150%;
+    font-size: 170%
 }
 
 nav a:link
 {
     color: rgb(255, 255, 255);
+    
 }
 
 nav a:visited
 {
     color: rgb(255, 252, 252);
+    
 }
 
 #container
 {
-    width: 63.123%; /* 960px */
+    width: 80%; /* */
     margin: 0 auto;
     background-color: rgba(207,55,68);
     padding-top: 5px;
@@ -41,14 +43,16 @@ header
 {
     text-align: center;
     background-color: rgb(143, 12, 23);
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-bottom: 0.25%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
 }
 
 nav
 {
-    width: 98.9583333%;
+    margin-bottom: 0.25%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
     line-height: 250%;
     display: block;
     background-color: rgb(143, 12, 23);
@@ -56,52 +60,56 @@ nav
 
 aside
 {
+    margin-bottom: 0.25%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
     float: left;
     background-color: rgb(143, 12, 23);
-    width: 32.29%; /* 310px */
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 32%; 
+    height: ;
 }
 
 #Act1
 {
-    width: 630px;
+    width: 67%;
     background-color: rgb(143, 12, 23);
     float: right;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-bottom: 0.25%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding-bottom: 2.5%;
 }
 
 #Act2
 {
     background-color: rgb(143, 12, 23);
     float: right;
-    width: 630px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 67%;
+    margin-bottom: 0.25%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
     clear: right;
+    padding-bottom: 2.5%;
 }
 
 #Act3
 {
-    width: 630px;
+    width: 67%;
     background-color: rgb(143, 12, 23);
     float: right;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-bottom: 0.25%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding-bottom: 2.1%;
     clear: right;
 }
 
 footer
 {
-    width: 98.8958333%;
     background-color: rgb(143, 12, 23);
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-bottom: 0.25%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
     clear: both;
 
 }
