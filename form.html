@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=desctiption content="Form">
+    <meta name=keywords content="Hornet, SlikSong">
+    <title>Hornet</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="icon" href="hornet.png">
+</head>
+
+<body>
+    <form id="pizza form" action="my_app.php" method="post">
+        <p>Name: <input type="text" name="name" id="name" placeholder="type here"></p>
+        <p>Phone number: <input type="text" name="phone number" id="phone number" maxlength="17" placeholder="+1 xxx (xxx) xxxx"></p>
+
+        <input type="radio" name="large" id="large" value="large">
+        <label for="large">Large</label>
+        <input type="radio" name="medium" id="medium" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" name="small" id="small" value="small">
+        <label for="small">Small</label>
+
+        <br><br>
+        <input type="checkbox" name="pepperoni" id="pepperoni" value="pepperoni">
+        <label for="pepperoni">pepperoni</label>
+        <input type="checkbox" name="extra cheese" id="extra cheese" value="extra cheese">
+        <label for="extra cheese">extra cheese</label>
+        <input type="checkbox" name="sausage" id="sausage" value="sausage">
+        <label for="sausage">sausage</label>
+        <input type="checkbox" name="bacon" id="bacon" value="bacon">
+        <label for="bacon">bacon</label>
+        <input type="checkbox" name="mushroom" id="mushroom" value="mushroom">
+        <label for="mushroom">mushroom</label>
+        <br><br>
+        
+        <p>Type special requests here:</p>
+        <textarea name="special requests" id="special requests" cols="20" rows="5"></textarea>
+        
+
+        <br><br>
+        <p><input type="submit" value="submit" id="submit button"></p>
+        <p><input type="reset" value="reset" id="reset"></p>
+
+        
+    </form>
+</body>
+
+</html>
