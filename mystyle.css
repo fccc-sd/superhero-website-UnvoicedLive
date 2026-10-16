@@ -1,0 +1,100 @@
+h1 
+{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 60%;
+    padding-top: 10px;
+    color: white;
+}
+
+body
+{
+    background-image: url('hornet.png');
+    background-repeat: no-repeat;
+    background-color: rgba(207,55,68);
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+nav
+{
+    line-height: 250%;
+    display: block;
+    background-color: rgb(143, 12, 23);
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 125px;
+    padding-left: 125px;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+nav a:link
+{
+    color: rgb(255, 255, 255);
+}
+
+nav a:visited
+{
+    color: rgb(255, 252, 252);
+}
+
+h6
+{
+    color:white;
+}
+
+p
+{
+    font-size: 1.25em;
+    color: white;
+}
+
+li
+{
+    color: white;
+}
+
+#right
+{
+    float: right;
+    padding-top: 18px;
+}
+
+h2
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img
+{
+    float: left;
+}
+
+iframe
+{
+    margin-bottom: -40px;
+}
+
+button
+{
+    background-color: rgba(207,55,68);
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+
+}
+
+label
+{
+    color:white;
+}
+
