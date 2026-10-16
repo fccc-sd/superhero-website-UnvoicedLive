@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "javascript"
+assignment: "website"
+owner:
+  username: "UnvoicedLive"
+  id: 226733289
+  accepted_at: "2026-08-26T16:56:27Z"
+source:
+  owner: "JavaScript-Geiger"
+  owner_id: 319136475
+  repo: "Website"
+  branch: "main"
